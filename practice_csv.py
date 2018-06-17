@@ -17,7 +17,7 @@ try:
 		pp(myListOfDict[1:5])
 	
 	with open("practice_2.csv", mode="w", newline="") as output_file_pointer:
-		my_writer = csv.Dictwriter(output_file_pointer, fieldnames = header)
+		my_writer = csv.DictWriter(output_file_pointer, fieldnames = header)
 		my_writer.writeheader()
 		for row in myListOfDict:
 			my_writer.writerow(row)
