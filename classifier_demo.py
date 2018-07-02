@@ -17,7 +17,6 @@ y_pred = classifier.predict(X_test)
 # Making the Accuracy Score
 from sklearn.metrics import accuracy_score
 print ('Accuracy Score :', accuracy_score(y_test, y_pred))
-#Accuracy Score : 0.811828669938
 Accuracy['GaussianNB']= accuracy_score(y_test, y_pred)
 
 ######################### KNN Classifier #####################################
@@ -31,7 +30,6 @@ y_pred = classifier.predict(X_test)
 # Making the Accuracy Score
 from sklearn.metrics import accuracy_score
 print ('Accuracy Score :', accuracy_score(y_test, y_pred))
-#Accuracy Score : 0.811828669938
 Accuracy['KNeighborsClassifier']= accuracy_score(y_test, y_pred)
 
 ########################## Decision Tree ####################################
@@ -45,7 +43,6 @@ y_pred = classifier.predict(X_test)
 # Making the Accuracy Score
 from sklearn.metrics import accuracy_score
 print ('Accuracy Score :', accuracy_score(y_test, y_pred))
-#Accuracy Score : 0.808513459753
 Accuracy['DecisionTreeClassifier']= accuracy_score(y_test, y_pred)
 
 ############################ RandomForest ##################################
